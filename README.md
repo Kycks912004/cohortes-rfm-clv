@@ -49,14 +49,14 @@ Dashboard de DataViz développé pour **analyser et optimiser les stratégies ma
 
 ```bash
 # 1. Cloner le repository
-git clone https://github.com/votre-username/marketing-analytics-dashboard.git
-cd marketing-analytics-dashboard
+git clone https://github.com/Kycks912004/cohortes-rfm-clv.git
+cd cohortes-rfm-clv
 
 # 2. Installer les dépendances
 pip install -r requirements.txt
 
 # 3. Lancer le dashboard
-streamlit run app/app.py
+streamlit run cohortes-rfm-clv-main/notebooks/Notebook.ipynb
 ```
 
 Le dashboard s'ouvre automatiquement à `http://localhost:8501`
@@ -66,18 +66,12 @@ Le dashboard s'ouvre automatiquement à `http://localhost:8501`
 ## 📁 Structure
 
 ```
-marketing-analytics-dashboard/
-├── app/
- └──app.py # Application Streamlit (2000+ lignes)
- └──util.py  # Fonctions de calcul (600+ lignes)                
+cohortes-rfm-clv/
+├── cohortes-rfm-clv-main/
+│   └── notebooks/
+│       └── Notebook.ipynb    # Notebook principal (analyse complète)
 ├── requirements.txt          # Dépendances Python
-├── README.md                 # Documentation
-└── data/
-    └── clean/
-        └── online_retail_cleaned.csv
-    └──raw/
-        └── online_retail_II.xlsx
-
+└── README.md
 ```
 
 ---
@@ -148,7 +142,8 @@ scipy>=1.11.0
 
 ## 👤 Auteur
 
-**Projet académique ECE Paris - DataViz 2025**
+**Kylian Pinto** — M1 Ingénierie Data & IA, ECE Paris  
+[![GitHub](https://img.shields.io/badge/GitHub-Kycks912004-181717?style=flat&logo=github)](https://github.com/Kycks912004)
 
 ---
 
