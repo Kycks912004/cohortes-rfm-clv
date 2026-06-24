@@ -2,6 +2,9 @@
 
 > Dashboard interactif d'analyse marketing basé sur les cohortes, la segmentation RFM et le CLV
 
+[![Voir le Notebook](https://img.shields.io/badge/Jupyter-Voir%20le%20Notebook-orange?style=for-the-badge&logo=jupyter&logoColor=white)](https://nbviewer.org/github/Kycks912004/cohortes-rfm-clv/blob/main/cohortes-rfm-clv-main/Notebook.ipynb)
+[![GitHub](https://img.shields.io/badge/GitHub-Code%20Source-181717?style=for-the-badge&logo=github)](https://github.com/Kycks912004/cohortes-rfm-clv)
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![Plotly](https://img.shields.io/badge/Plotly-5.17+-green.svg)
